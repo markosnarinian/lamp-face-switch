@@ -44,6 +44,7 @@ def auto_enabled():
 
 timestamp = -1
 while True:
+    # Wait 0.6 seconds to reduce CPU usage
     sleep(0.6)
 
     # Capture video in order to detect faces
