@@ -63,7 +63,7 @@ while True:
     print(faces)
 
     # Controls the light
-    # 20 is how much time would it take the light to turn off after the program doesn't see any other faces
+    # 20 is how much time would it take the light to turn off after the program doesn't see any other faces. You can replace it with anything greater or equal with 0
     if len(faces) > 0:
          timestamp = time()
 
